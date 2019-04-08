@@ -4,7 +4,8 @@
 
 ### 1. adım : Maven ile proje oluştur
 ```
-$ mvn archetype:generate -DgroupId=app -DartifactId=wordcount –Dversion=v1.0 -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+$ mvn archetype:generate -DgroupId=app -DartifactId=wordcount –Dversion=v1.0 -DarchetypeArtifactId=maven-
+archetype-quickstart -DinteractiveMode=false
 ```
 
 ### 2. adım : Map-Reduce uygulamasını geliştir
@@ -60,9 +61,11 @@ $ touch data/file1.txt data/file2.txt
 
 .txt dosyalarının içine metin yaz :
 ```
-$ echo "dünya düzdür dünya düz ise güneş neden düz değildir yoksa düz müdür öyleyse marsta düzdür aslında her şey düzdür" > data/file1.txt
+$ echo "dünya düzdür dünya düz ise güneş neden düz değildir yoksa düz müdür öyleyse marsta düzdür aslında 
+her şey düzdür" > data/file1.txt
 
-$ echo "dünya yuvarlak değildir ancak güneş yuvarlaktır marsta yuvarlaktır öyleyse dünya neden yuvarlak değildir" > data/file2.txt
+$ echo "dünya yuvarlak değildir ancak güneş yuvarlaktır marsta yuvarlaktır öyleyse dünya neden yuvarlak 
+değildir" > data/file2.txt
 ```
 
 Girdileri HDFS sistemine kopyala :
