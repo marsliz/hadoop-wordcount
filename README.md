@@ -29,7 +29,7 @@ $ cd wordcount
 - [pom.xml](https://github.com/marsliz/hadoop-wordcount/blob/master/pom.xml)
 - [WordMapper.java](https://github.com/marsliz/hadoop-wordcount/blob/master/src/main/java/app/WordMapper.java)
 - [WordReduce.java](https://github.com/marsliz/hadoop-wordcount/blob/master/src/main/java/app/WordReduce.java)
-- [WordCounter.java](https://github.com/marsliz/hadoop-wordcount/blob/master/src/main/java/app/WordCount.java)
+- [WordCount.java](https://github.com/marsliz/hadoop-wordcount/blob/master/src/main/java/app/WordCount.java)
 
 ### 3. adım : Maven ile uygulamayı derle
 
